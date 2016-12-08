@@ -27,12 +27,14 @@ header {
   padding: 0;
   display: block;
   width: 100%;
-  position: fixed;
+  position: absolute;
 }
 
 .hex {
   float: left;
   display: inline-block;
+  position: relative;
+  width: 33%;
 }
 
 header h1 {
@@ -41,10 +43,12 @@ header h1 {
   text-align: center;
   color: white;
   margin: 0;
+  display: inline-block;
 }
 
 .nav {
   text-align: center;
+  display: inline-block;
 }
 
 .nav li {
@@ -64,14 +68,54 @@ header h1 {
 }
 
 .nav li:hover {
-  color: red;
+  background-color: red;
 }
 
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+h2 {
+font-family: 'Abril Fatface', cursive;
+font-size: 1.5rem;
+padding: 1em;
+text-align: center;
+margin: 0;
+}
+
+div {
+  display: block;
+  text-align: center;
+}
+
+.img-flex2 {
+  display: inline-block;
+  float: left;
+}
+
+.blurb1 {
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
+
+.img-flex3 {
+  display: inline-block;
+  float: left;
+  clear: both;
+}
+
+.blurb2 {
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
 @media only screen and (min-width: 25em) {
 
+  html {
 
   }
-
 }
 
 @media only screen and (min-width: 38em) {
