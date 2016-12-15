@@ -22,15 +22,17 @@ body {
   margin: 0;
 }
 
-.top {
+section {
   background-color: #db7093;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 header {
   padding: 0;
   display: block;
   width: 100%;
-  position: absolute;
 }
 
 .hex {
@@ -70,55 +72,66 @@ header .nav a {
   color: white;
 }
 
-.nav li:hover {
+.nav a:hover {
   background-color: red;
 }
 
 .img-flex {
-  display: block;
   width: 100%;
 }
 
-h2 {
+h2 , h3 {
   font-family: "Abril Fatface", cursive;
-  font-size: 1.5rem;
-  padding: .5em;
+  font-size: 1rem;
+  padding: 0;
   text-align: center;
   margin: 0;
   background-color: #696969;
+  clear: both;
 }
 
-div {
-  display: block;
+.hours {
   text-align: center;
-  padding: 1em;
+}
+
+.days {
+  margin-left: 0;
+}
+main {
+  clear: both;
+  float: left;
 }
 
 .img-flex2 {
-  display: inline-block;
   float: left;
+  display: inline-block;
   padding-bottom: 1em;
   width: 40%;
 }
 
-.blurb1 {
+.blurb {
+  margin-left: 1em;
   display: inline-block;
-  float: left;
-  text-align: center;
 }
 
-.img-flex3 {
-  display: inline-block;
-  float: left;
+.review-row {
   clear: both;
-  padding-bottom: 1em;
-  width: 40%;
+  margin: 1em;
 }
 
-.blurb2 {
+
+p {
   display: inline-block;
-  float: left;
-  text-align: center;
+  margin-left: 1em;
+}
+
+.content {
+  margin-top: 16em;
+}
+
+footer {
+display: block;
+clear: both;
 }
 
 @media only screen and (min-width: 25em) {
@@ -129,6 +142,10 @@ div {
 
   .hex {
     width: 20%;
+  }
+
+  .content {
+    margin-top: 8em;
   }
 }
 
@@ -142,6 +159,10 @@ div {
   .hex {
     width: 20%;
   }
+
+  .content {
+    margin-top: 9em;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -154,6 +175,10 @@ div {
   .hex {
     width: 15%;
   }
+
+  .content {
+    margin-top: 10em;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -165,5 +190,9 @@ div {
 
   .hex {
     width: 10%;
+  }
+
+  .content {
+    margin-top: 10em;
   }
 }
