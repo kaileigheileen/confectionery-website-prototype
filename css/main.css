@@ -103,6 +103,24 @@ main {
   float: left;
 }
 
+li {
+  list-style-type: none;
+}
+
+button {
+  color: white;
+  background-color: pink;
+  border: none;
+  padding: 16px;
+  margin-left: 3em;
+  margin-bottom: 1em;
+  display: inline-block;
+}
+
+button:hover {
+  background-color: red;
+}
+
 .img-flex2 {
   float: left;
   display: inline-block;
@@ -132,6 +150,7 @@ p {
 footer {
   display: block;
   clear: both;
+  font-size: .5em;
 }
 
 @media only screen and (min-width: 25em) {
